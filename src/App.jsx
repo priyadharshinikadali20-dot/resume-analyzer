@@ -36,9 +36,9 @@ function App() {
     try {
 
     const response = await axios.post(
-"https://resume-analyzer-backend-46ju.onrender.com/analyze",
+"https://resume-analyzer-backend-46ju.onrender.com/upload",
 formData
-);  
+);
 
       setResult(response.data);
 
