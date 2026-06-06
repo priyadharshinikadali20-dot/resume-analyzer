@@ -35,10 +35,10 @@ function App() {
 
     try {
 
-      const response = await axios.post(
-        "http://localhost:5000/upload",
-        formData
-      );
+    const response = await axios.post(
+"https://resume-analyzer-backend-46ju.onrender.com/analyze",
+formData
+);  
 
       setResult(response.data);
 
